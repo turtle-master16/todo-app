@@ -1,7 +1,11 @@
 module.exports = {
-  siteMetadata: {
-    title: `new`,
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  plugins: [],
+    siteMetadata: {
+        title: `Todo Site`,
+    },
+    plugins: [{
+        resolve: `gatsby-plugin-theme-ui`,
+        options: {
+            preset: "@theme-ui/preset-swiss",
+        },
+    }, ],
 }
