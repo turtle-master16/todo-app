@@ -1,12 +1,15 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import { Card, Text } from 'theme-ui'
 
 const IndexPage = () => {
     return (
         <div>
             <Card>
-                <Text>Card</Text>
+                dd
             </Card>
+            sfjsjf
+            <Link href="#!">Hello</Link>
         </div>
     )
 }
